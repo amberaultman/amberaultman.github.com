@@ -12,6 +12,26 @@ function showHide() {
   about.classList.toggle("slide");
   let rotateIcon = document.getElementById("arrow");
   rotateIcon.classList.toggle("rotate");
+  let readless = document.getElementById("less");
+  if (readless.innerHTML === "More") {
+    readless.innerHTML = "Less";
+  } else {
+    readless.innerHTML = "More";
+  }
+}
+
+// Expands Sidenav
+
+function menuOpen() {
+  let sidenav = document.getElementById("sidenav");
+  sidenav.classList.add("menuOpen");
+}
+
+// Closes Sidenav
+
+function menuClose() {
+  let sidenav = document.getElementById("sidenav");
+  sidenav.classList.remove("menuOpen");
 }
 
 
