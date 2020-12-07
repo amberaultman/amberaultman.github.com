@@ -1769,6 +1769,12 @@ main.company section {
   main.company section section.intro {
     background-color: none; }
 
+main.company + footer .bottom {
+  display: none; }
+
+main.company + footer .left a:first-child {
+  display: none; }
+
 @media screen and (min-width: 992px) {
   main.company + footer {
     padding-top: 20px; }
