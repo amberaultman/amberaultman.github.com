@@ -702,6 +702,9 @@ a.button-tertiary {
     a.button-tertiary {
       font-size: 22px;
       letter-spacing: 3px; } }
+button:hover, button:active, button:focus {
+  cursor: pointer; }
+
 button.no-button {
   -webkit-appearance: none;
      -moz-appearance: none;
