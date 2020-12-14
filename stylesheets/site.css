@@ -370,7 +370,7 @@ main {
   background: #FFF6ED; }
 
 section {
-  padding: 4%; }
+  padding: 2% 4%; }
 
 p,
 ol,
@@ -912,7 +912,9 @@ nav.home {
     nav.home {
       height: 200px; } }
 section.intro {
-  background-color: #FFF6ED; }
+  background-color: #FFF6ED;
+  padding: 4%;
+  max-width: 1500px; }
   section.intro .s1 {
     margin-top: -60px; }
   section.intro br {
@@ -1005,7 +1007,7 @@ section#about {
   max-height: 0px;
   padding: 0; }
   section#about.slide {
-    max-height: 120vh; }
+    max-height: 300vh; }
   section#about .wrapper {
     background: #F3D170;
     display: -ms-grid;
@@ -1051,8 +1053,9 @@ section#about {
       @media screen and (min-width: 1920px) {
         section#about .close ion-icon {
           font-size: 54px; } }
-  section#about .button-secondary {
-    margin-left: 10px; }
+  section#about .button-primary {
+    margin-right: 10px;
+    margin-bottom: 10px; }
 
 main.home {
   display: -ms-grid;
@@ -1154,7 +1157,7 @@ section.writing, section.speaking {
     margin-bottom: 0; }
   @media screen and (min-width: 768px) {
     section.writing, section.speaking {
-      padding: 16% 8% 8% 8%; } }
+      padding: 8% 8% 8% 4%; } }
 section.writing {
   margin-top: 8vw; }
   @media screen and (min-width: 480px) {
