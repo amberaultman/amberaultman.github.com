@@ -660,7 +660,7 @@ a.button-primary, a.button-secondary {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 10px 22px 8px;
-  border-radius: 30px;
+  border-radius: 80px;
   border: 3px solid #2B2823; }
   a.button-primary:hover, a.button-primary:active, a.button-primary:focus, a.button-secondary:hover, a.button-secondary:active, a.button-secondary:focus {
     background-color: #395DE3;
@@ -1599,7 +1599,7 @@ nav#sidenav {
   width: 0;
   overflow-x: hidden;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   right: -8%;
   -webkit-transition: all .3s ease;
@@ -1772,8 +1772,11 @@ main.company section {
         max-width: 300px; } }
   main.company section#casestudies {
     margin-bottom: 60px; }
-  main.company section section.intro {
-    background-color: none; }
+  main.company section.intro {
+    background-color: none;
+    position: relative;
+    top: 0;
+    z-index: 1; }
 
 main.company + footer .bottom {
   display: none; }
