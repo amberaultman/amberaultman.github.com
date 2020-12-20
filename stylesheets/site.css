@@ -360,14 +360,14 @@ body {
   color: #2B2823;
   font-size: 18px;
   min-height: 100vh;
-  background-color: #FFF6ED; }
+  background-color: #f7ebdf; }
 
 nav {
   background: white;
   height: 84px; }
 
 main {
-  background: #FFF6ED; }
+  background: #f7ebdf; }
 
 section {
   padding: 2% 4%; }
@@ -745,7 +745,7 @@ nav {
     font-size: 32px; }
 
 main {
-  background-color: #FFF6ED; }
+  background-color: #f7ebdf; }
 
 .card-container {
   display: flex; }
@@ -912,7 +912,7 @@ nav.home {
     nav.home {
       height: 200px; } }
 section.intro {
-  background-color: #FFF6ED;
+  background-color: #f7ebdf;
   padding: 4%;
   max-width: 1500px; }
   section.intro .s1 {
@@ -1115,7 +1115,7 @@ section.work, section.experiences {
   section.work footer, section.experiences footer {
     text-align: right;
     margin-right: 1%;
-    background-color: #FFF6ED; }
+    background-color: #f7ebdf; }
   section.work .s3, section.experiences .s3 {
     flex: 2 1 auto;
     margin-bottom: 0; }
@@ -1203,13 +1203,13 @@ section.thanks {
     margin-bottom: 24px; }
 
 section.hero, section.project-details {
-  background-color: #FFF6ED; }
+  background-color: #f7ebdf; }
 
 .project-details hr {
   margin-top: 84px; }
 
 .work {
-  background-color: #FFF6ED; }
+  background-color: #f7ebdf; }
 
 .work section {
   max-width: 1440px;
@@ -1564,14 +1564,14 @@ section.hero, section.project-details {
       .more-work .next {
         margin-top: 0; } }
 header.company {
-  background: linear-gradient(white 114px, #FFF6ED 114px);
+  background: linear-gradient(white 114px, #f7ebdf 114px);
   overflow-x: hidden; }
   @media screen and (min-width: 768px) {
     header.company {
-      background: linear-gradient(white 160px, #FFF6ED 160px); } }
+      background: linear-gradient(white 160px, #f7ebdf 160px); } }
   @media screen and (min-width: 992px) {
     header.company {
-      background: linear-gradient(white 200px, #FFF6ED 200px); } }
+      background: linear-gradient(white 200px, #f7ebdf 200px); } }
 section.on-page-nav {
   height: 114px;
   display: flex;
