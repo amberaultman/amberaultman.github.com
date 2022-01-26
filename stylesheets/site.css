@@ -1224,6 +1224,7 @@ section.hero, section.project-details {
   .work section h6,
   .work section p,
   .work section ol,
+  .work section ul,
   .work section hr {
     -ms-grid-column: 2;
     -ms-grid-column-span: 10;
@@ -1234,6 +1235,7 @@ section.hero, section.project-details {
       .work section h6,
       .work section p,
       .work section ol,
+      .work section ul,
       .work section hr {
         -ms-grid-column: 3;
         -ms-grid-column-span: 8;
